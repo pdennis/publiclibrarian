@@ -50,7 +50,7 @@ This script is designed to process pictures of bookshelves, extracting informati
 ## Notes
 
 - Ensure that the images you want to process are in either PNG, JPG, or JPEG format.
-- Try to have the spines of the book oriented horizontally, to make it easier for GPT4 to read. Also, GPT4 can't process full rez pictures, so you'll have problems if you try to process too many pictures at once. I try to limit to 10-15 books per image tops.
-- The extracted text descriptions will be added to `library.txt` with a header indicating the analysis for each image.
+- Try to have the spines of the book oriented horizontally, to make it easier for GPT4 to read. Also, GPT4 can't process full rez pictures, so you'll have problems if you try to process too many books at once. I try to limit to 10-15 books per image tops.
+- The extracted text descriptions will be added to `library.txt` with a header indicating  each image the analysis came from.
 - The results will not be perfect
 
