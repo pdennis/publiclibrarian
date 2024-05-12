@@ -1,0 +1,6 @@
+
+--- Analysis for IMG_2896.jpg ---
+Book title: Placeholder name
+Book Author: The author goes here  
+Book Description:This is what it will look like when your script runs, your books will be below. This was never made for public consumption and will likely have some inaccuracy. 
+
