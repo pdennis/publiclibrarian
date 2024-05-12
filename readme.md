@@ -1,8 +1,8 @@
 # Bookshelf to card catalogue
 
-This was never intended to be public, and as of 5/12/24 has about 3 hours of development in it, by someone who barely qualifies as a coder. Nevertheless, it has given me a quick and dirty and usable card catologue of about 400 books. 
+This was never intended to be public, and as of 5/12/24 has about 3 hours of work from idea to completion. So, needless to say, it's provided without warranty. Try to clean up the pictures, rotate the image so the book spines are horizontal and easily readable, and not too many books in frame at a time. 
 
-This script is designed to process pictures of bookshelves, extracting information from book covers and creating card catalogues. It utilizes the OpenAI API to convert images containing book covers into text descriptions. The text descriptions are then stored in a text file.
+This script is designed to process pictures of bookshelves, extracting information from book spines or covers, and using it to create a card catalogue. It utilizes the OpenAI API to convert images containing book covers into text descriptions. The text descriptions are then stored in a text file. It'll loop through as many images as you add to the pictures folder, and append all of the results to library.txt
 
 ## Prerequisites
 
