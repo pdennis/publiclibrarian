@@ -4,6 +4,8 @@ This was never intended to be public, and as of 5/12/24 has about 3 hours of wor
 
 This script is designed to process pictures of bookshelves, extracting information from book spines or covers, and using it to create a card catalogue. It utilizes the OpenAI API to convert images containing book covers into text descriptions. The text descriptions are then stored in a text file. It'll loop through as many images as you add to the pictures folder, and append all of the results to library.txt
 
+![a screenshot of the tool in use](./example.png)
+
 ## Prerequisites
 
 - Python 3.x installed on your system.
