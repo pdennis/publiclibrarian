@@ -63,6 +63,20 @@ python3 csvconverter.py
 ```
 and it will create a new file called library.csv, and you're good to go.
 
+## Dynix interface
+
+![a screenshot of the tool in use](./Dynix.png)
+
+
+This is a silly little project to clone old Dynix terminal interfaces. Run using 
+
+```
+python3 interface.py
+```
+
+And follow the instructions. 
+
+It will read directly from library.csv (NOT library.txt, so you must run the csvconverter script for it to work)
 
 ## Notes
 
