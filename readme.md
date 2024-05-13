@@ -37,7 +37,11 @@ This script is designed to process pictures of bookshelves, extracting informati
 
 3. **Running the Script**:
    
-    Place the images you want to process in the  `pictures` directory.  Then, run the script using:
+    Place the images you want to process in the  `pictures` directory.  
+
+    Arrange the pictures so the book titles are as easy to read as possible. They can be just the spines, or the covers. Works a little better when text is horizonal. Covers will be more reliable. Try not to do more than 10 in a single picture. Robot get confused.ß
+
+    Then, run the script using:
 
     ```
     python script.py
