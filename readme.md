@@ -47,6 +47,19 @@ This script is designed to process pictures of bookshelves, extracting informati
    
     The script will process each image in the `pictures` directory, extract text descriptions using the OpenAI API, and append the results to a file named `library.txt` in the same directory.
 
+## Convert the output to CSV
+
+The script will output a semi-structured text file. For boring reasons, it's easier to have GPT4 output this text consistently than it is trying to get it to output raw .csv formatted text without extranious commentary. 
+
+As a result, we need an extra script to convert the output to structured data. That's what csvconverter.py does.
+
+run
+```
+python3 csvconverter.py
+```
+and it will create a new file called library.csv, and you're good to go.
+
+
 ## Notes
 
 - Ensure that the images you want to process are in either PNG, JPG, or JPEG format.
