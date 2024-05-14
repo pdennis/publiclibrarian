@@ -67,6 +67,30 @@ python3 csvconverter.py
 ```
 and it will create a new file called library.csv, and you're good to go.
 
+### LCSH Generation Script
+
+This script extends your existing `library.csv` script by adding Library of Congress Subject Headings (LCSH) to each book entry using GPT-4o.
+
+#### Setup
+
+1. **Install Dependencies**
+   ```sh
+   pip install openai
+   ```
+
+2. **Add Your OpenAI API Key**
+   Replace `'ADD_OPENAI_API_KEY'` with your actual OpenAI API key in the script.
+
+#### Usage
+
+1. **Run the Script**
+   Execute the script in your Python environment. It will read `library.csv`, generate LCSH for each book entry, and update the CSV file with the new LCSH column.
+
+2. **Review the Updates**
+   Open `library.csv` to verify that the LCSH have been correctly added to each book entry.
+
+This script automates the categorization of your book collection, enhancing the organization and searchability of your library data.
+
 ## Dynix interface
 
 ![a screenshot of the tool in use](./Dynix.png)
